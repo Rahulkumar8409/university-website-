@@ -48,7 +48,7 @@ nav ul li{
   nav ul{
     position: fixed;
     top: 0;
-    right: 0;
+    right: 0px;
     bottom: 0;
     background: #212EA0;
     z-index:-1;
@@ -65,6 +65,9 @@ nav ul li{
     display: block;
     width: 30px;
     cursor: pointer;
+  }
+  .hide-mobile-menu{
+      right: -200px;
   }
 }
 
